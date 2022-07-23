@@ -88,7 +88,7 @@ class Vksearch:
         else:
             BotBD.candidate_add(user_id)
 
-        """Проверка пары в бд"""
+        """Проверка пары  в бд"""
         for user in users:
             print(user['id'])
             if BotBD.user_exists(user['id']):
